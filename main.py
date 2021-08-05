@@ -206,7 +206,6 @@ def scrapeCharity(url, FIRST_TIME_CSV=False):
                       "5820: Did the charity issue any of its tax receipts for donations on behalf of another organization?",
                       "5830: Did the charity have direct partnership holdings at any time during the fiscal period?",
                       "5900: Enter the average value of property not used for charitable activities or administration during the 24 months before the BEGINNING of the fiscal period"
-                      "5910: Enter the average value of property not used for charitable activities or administration during the 24 months before the END of the fiscal period",
                       ]
 
         fieldnames_short = [field[:4] for field in fieldnames]
